@@ -12,7 +12,7 @@
 }
 
 .grid_container .card{
-    background-color: #3A2B71;
+    background-color: #fff;
     height: 300px;
    width: 100%;
    padding: 20px;
@@ -22,4 +22,20 @@
 
 .grid_container .card:hover{
     transform: translateX(-10px);
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}
+
+.card .name{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 6px 0px;
+}
+
+.card .desc{
+    font-size: 15px;
+    color: #575757;
 }

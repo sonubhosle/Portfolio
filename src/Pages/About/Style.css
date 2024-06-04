@@ -1,0 +1,112 @@
+.about_details{
+    display: flex;
+    position: relative;
+    width: 90%;
+    margin:  30px auto 70px auto;
+}
+
+.about_details .images{
+    width: 50%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+ .about_details .images img{
+    width: 70%;
+    height: 100%;
+    transition:  0.5s ease;
+}
+
+.about_details .images img:hover{
+    transform: translateY(10px);
+}
+
+
+.images .overlay{
+    position: absolute;
+    left: 0px;
+    bottom: -50px;
+    width: 200px;
+    height: 200px;
+}
+
+.images .overlay img{
+    width: 100%;
+    height: 100%;
+    transition:  0.5s ease;
+}
+
+.images .overlay img:hover{
+    transform: translateY(10px);
+}
+
+.about_details .info{
+    width: 50%;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    background-color: #ffff;
+}
+
+.info h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.info .desc{
+    font-size: 14px;
+    color: #444;
+}
+
+.info .button{
+    width: 150px;
+    height: 35px;
+    background-color: #00C0FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.5s linear;
+    cursor: pointer;
+    margin: 20px 0px 10px 0px;
+    text-decoration: none;
+}
+
+.info .button:hover{
+    background-color: #ff0059;
+}
+
+.info .content{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    width: 100%;
+    position: relative;
+}
+
+.info .content .left{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50%;
+}
+
+.info .content .right{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50%;
+}
+
+.info .content .name{
+    font-size: 12px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.info .content p{
+    font-size: 12px;
+    color: #545454;
+}

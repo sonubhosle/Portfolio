@@ -18,9 +18,12 @@ html,body{
 .heading{
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 40%;
   justify-content: center;
   flex-direction: column;
+  margin: 0px auto;
+  line-height: 30px;
+  text-align: center;
 }
 
 .heading p{

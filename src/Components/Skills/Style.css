@@ -1,0 +1,55 @@
+.skills{
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+    height: auto;
+    display: flex;
+    column-gap: 50px;
+
+}
+
+.skills .left{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+
+ .bars .text_fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0px 4px 0px;
+}
+
+ .bars .bar{
+    background-color: azure;
+    height: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.bars .bar .line{
+ height: 100%;
+ background-color: aqua;
+ width: 70%;
+}
+
+.bars .bar .percent-70{
+    width: 70%;
+}
+
+.bars .bar .percent-50{
+    width: 50%;
+}
+.bars .bar .percent-20{
+    width: 20%;
+}
+.bars .bar .percent-80{
+    width: 80%;
+}
+.skills .right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}

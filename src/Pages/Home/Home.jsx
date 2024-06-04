@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Hero/>
       <Work/>
-      {/* <About sm_heading={'About Me'} heading={'A Passionate Developer Who Loves to Code'}/> */}
+      <About sm_heading={'About Me'} heading={'A Passionate Developer Who Loves to Code'}/>
       <Skills sm_heading={'Skills'} heading={'I Work Hard to Improve My Skills Regularly'}/>
     </div>
   )
